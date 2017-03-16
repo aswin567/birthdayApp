@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  height: 100%;
+  width: 100%; }
+
+body {
+  background-color: #fbb794;
+  /* Old browsers */
+  background-color: -moz-radial-gradient(center, ellipse cover, #fbb794 0%, #f9c7ae 100%);
+  /* FF3.6-15 */
+  background-color: -webkit-radial-gradient(center, ellipse cover, #fbb794 0%, #f9c7ae 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background-color: radial-gradient(ellipse at center, #fbb794 0%, #f9c7ae 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+
+.top-pos {
+  position: relative;
+  top: 0;
+  width: 100%; }
+  .top-pos .left-banner {
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .top-pos .right-banner {
+    position: absolute;
+    top: 0;
+    right: 0; }
+
+.bottom-pos {
+  text-align: center; }
+  .bottom-pos button {
+    border-radius: 26px;
+    background-color: white;
+    box-shadow: 3px 5.196px 0px 0px #c05359;
+    border: none;
+    font-size: 16px;
+    color: #f84a55;
+    padding: 14px 37px;
+    outline: none;
+    font-family: Roboto;
+    font-weight: bold; }
+
+.hbd {
+  max-width: 550px;
+  margin: 0 auto;
+  padding-top: 41px;
+  padding-bottom: 82px; }
+
+.cake {
+  width: 299px;
+  margin: 0 auto;
+  padding-bottom: 24px; }
+  .cake img {
+    width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
