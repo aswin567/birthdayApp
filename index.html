@@ -3,20 +3,23 @@
 <!--[if IE 7]>    <html class="ie lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>    <html class="ie lt-ie9"> <![endif]-->
 <!--[if gt IE 8]> <html> <![endif]-->
-<!--[if !IE]><!--><html lang="en"><!-- <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!-- <![endif]-->
+
 <head>
 	<title>Happy Birthday</title>
 	<meta charset="UTF-8" />
 	<!--<meta name="description" content="Happy Birthday">
 	<meta name="robots" content="index, follow" />
     <meta name="keywords" content="Birthday, Happy">-->
-    <!-- Strat of Facebook Meta -->
-    <!--<meta property="og:title" content="Happy Birthday Khushbu"/>
+	<!-- Strat of Facebook Meta -->
+	<!--<meta property="og:title" content="Happy Birthday Khushbu"/>
     <meta property="og:type" content="E-Greeting" />
     <meta property="og:image" content="favicon.ico" />
     <meta property="og:url" content="http://khushbuparakh.in" />
     <meta property="og:description" content="Wish you a very Happy Birthday">-->
-    <!-- End of Facebook Meta Tags -->
+	<!-- End of Facebook Meta Tags -->
 	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -24,35 +27,61 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/style/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/style/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/owl/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/owl/owl.theme.default.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/style/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/style/loading.css">
 	<link rel="stylesheet/less" href="cake.less">
 </head>
 
 <body>
-<div class="cont-bday">
-	<div class="top-pos">
-		<div class="left-banner">
-			<img src="assets/images/leftdecoration.png"/>
+	<div class="cont-bday">
+		<div class="top-pos">
+			<div class="left-banner">
+				<img src="assets/images/leftdecoration.png" />
+			</div>
+			<div class="right-banner">
+				<img src="assets/images/rightdecoration.png" />
+			</div>
 		</div>
-		<div class="right-banner">
-			<img src="assets/images/rightdecoration.png"/>
+		<div class="hbd">
+			<img src="assets/images/hbd.png" />
 		</div>
-	</div>
-	<div class="hbd">
-				<img src="assets/images/hbd.png"/>	
-	</div>
-	<div class="cake">
-				<img src="assets/images/cake.png"/>	
-	</div>
+		<div class="cake">
+			<img src="assets/images/cake.png" />
+		</div>
 
-    <div class="bottom-pos">
-		<button>Light</button>
-	</div>
+		<div class="bottom-pos">
+			<button>Light</button>
+		</div>
+		<div class="slider">
+			<img src="assets/images/sliderBorder.png" />
+		</div>
+		<div class="owl-carousel">
+			<img src="assets/images/slider-img/1.jpg" />
+			<img src="assets/images/slider-img/2.jpg" />
+			<img src="assets/images/slider-img/3.jpg" />
+			<img src="assets/images/slider-img/4.jpg" />
+			<img src="assets/images/slider-img/5.jpg" />
+			<img src="assets/images/slider-img/6.jpg" />
+			<img src="assets/images/slider-img/7.jpg" />
+		</div>
 
-</div>
+	</div>
 </body>
 <script src="assets/script/jquery-3.1.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		$(".owl-carousel").owlCarousel({
+				autoplay:true,
+				loop:true,
+				autoplay:true,
+				autoplayTimeout:100
+		}
+		);
+		});
+	</script>
+<script src="assets/owl/owl.carousel.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
 </html>

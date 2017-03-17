@@ -62,3 +62,15 @@ button {
 		width: 100%;
 	}
 }
+
+.slider{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -175px;
+	img{
+	position: absolute;
+	z-index: 10;
+	}
+}
+
